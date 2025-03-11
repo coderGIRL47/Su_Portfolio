@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="home">
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#information">Information</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+      <div class="section_container header_container">
+        <p>
+          Welcome to my web developer portfolio! I'm Sumaiya, a skilled and
+          creative web developer with a passion for creating beautiful,
+          responsive, and user-friendly websites. I've worked on a variety of
+          web projects, ranging from personal blogs to e-commerce platforms.
+        </p>
+      </div>
+    </header>
+
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="pro">
+          <div class="project">
+            <img src="assets/project-1.png" alt="Project 1" class="project-image">
+            <h3>Project Title 1</h3>
+            <p>Description of the project. What technologies you used, what challenges you faced, etc.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+            <img src="assets/project-2.png" alt="Project 2" class="project-image">
+            <h3>Project Title 2</h3>
+            <p>Description of the project. What technologies you used, what challenges you faced, etc.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+            <img src="assets/project-3.png" alt="Project 3" class="project-image">
+            <h3>Project Title 3</h3>
+            <p>Description of the project. What technologies you used, what challenges you faced, etc.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <span>HTML</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>CSS</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>React</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <h3>SSC</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        <p><b>GPA:</b> 5.00</p>
+        <br>
+        <h2>Education</h2>
+        <h3>HSC</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        <p><b>GPA:</b> 5.00</p>
+    </section>
+    <section class="information" id="information">
+      <h2>Personal Information</h2>
+      <form>
+          <div>
+            <p><b>Father's Name :</b> Lorem ipsum dolor</p>
+            <p><b>Mother's Name :</b> Lorem ipsum dolor</p>
+          </div>
+          <div>
+              <label for="dob">Date of Birth:</label>
+              <input type="date" id="dob" name="dob" required>
+          </div>
+          <div>
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender" required>
+                  <option value="">Select</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+              </select>
+          </div>
+          <div>
+              <label for="address">Address:</label>
+              <textarea id="address" name="address" required></textarea>
+          </div>
+          <div>
+              <button type="submit">Submit</button>
+          </div>
+      </form>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+          <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+          </div>
+          <div>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <div>
+              <button type="submit">Submit</button>
+          </div>
+      </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sumaiya. All rights reserved.</p>
+    </footer>
+</body>
+</html>
